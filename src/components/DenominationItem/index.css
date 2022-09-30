@@ -1,0 +1,19 @@
+/* Write your CSS here */
+
+.list-container {
+  display: flex;
+}
+
+button {
+  width: 160px;
+  border-color: #d4d2db;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #585076;
+  color: #d4d2db;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,95 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 40px;
+}
+
+.account-container {
+  background-color: #150b3e;
+  border-radius: 8px;
+  width: 60%;
+  max-width: 480px;
+  height: 650px;
+}
+
+.name-container {
+  display: flex;
+  margin: 40px;
+}
+
+.letter-logo {
+  border-radius: 120px;
+  font-size: 15px;
+  width: 50px;
+  height: 50px;
+  background-color: #c7d2fe;
+  color: #150b3e;
+  text-align: center;
+  padding-top: 10px;
+}
+.name {
+  color: #c7d2fe;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.balance-heading {
+  margin-top: 0px;
+  color: #585076;
+  font-size: 23px;
+  font-weight: 500;
+  margin-left: 30px;
+}
+.amount {
+  color: #d4d2db;
+  font-size: 25px;
+  margin-top: 0px;
+  padding-left: 20px;
+}
+span {
+  color: #585076;
+  font-size: 14px;
+}
+
+.withdraw-heading {
+  color: #d4d2db;
+  font-size: 25px;
+  margin-left: 40px;
+}
+
+.choose-heading {
+  color: #585076;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.value-container {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+
+  list-style-type: none;
+}
+
+@media screen and (max-width: 748px) {
+  .app-container {
+    max-width: 100%;
+    margin: 30px;
+  }
+
+  .account-container {
+    width: 420px;
+  }
+}
